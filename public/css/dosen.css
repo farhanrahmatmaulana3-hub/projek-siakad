@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+    --bg-dark: #0f172a;
+    --card-bg: #1e293b;
+    --neon-cyan: #22d3ee;
+    --neon-pink: #f472b6;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+}
+
+.container {
+    margin-left: 250px;
+    padding: 30px;
+}
+
+.table-header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title h1 {
+    color: var(--text-main);
+    text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+}
+
+.btn-primary-modern {
+    background: linear-gradient(90deg, var(--neon-cyan), var(--neon-pink));
+    color: var(--bg-dark);
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 0 15px rgba(34, 211, 238, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary-modern:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(34, 211, 238, 0.5);
+}
+
+.table-card-modern {
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.modern-table {
+    color: var(--text-main);
+}
+
+.modern-table thead th {
+    color: var(--text-muted);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.badge-dosen {
+    background: rgba(34, 211, 238, 0.1);
+    color: var(--neon-cyan);
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--neon-cyan);
+    font-size: 0.85rem;
+}
+
+.badge-empty {
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.btn-action-modern {
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.btn-edit-modern {
+    background: rgba(34, 211, 238, 0.1);
+    color: var(--neon-cyan);
+    border: 1px solid var(--neon-cyan);
+}
+
+.btn-edit-modern:hover {
+    background: var(--neon-cyan);
+    color: var(--bg-dark);
+    box-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.btn-delete-modern {
+    background: rgba(244, 114, 182, 0.1);
+    color: var(--neon-pink);
+    border: 1px solid var(--neon-pink);
+}
+
+.btn-delete-modern:hover {
+    background: var(--neon-pink);
+    color: var(--bg-dark);
+    box-shadow: 0 0 10px var(--neon-pink);
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 0;
+    }
+}
