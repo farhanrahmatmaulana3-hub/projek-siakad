@@ -46,6 +46,3 @@ Halaman buat mahasiswa lihat jadwal perkuliahan yang tersedia. Ditampilin lengka
 
 ---
 
-## Screenshots
-
-Tersedia di folder [`screenshots/`](./screenshots/)
