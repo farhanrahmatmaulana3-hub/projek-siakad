@@ -1,7 +1,5 @@
 # SIAKAD — Sistem Informasi Akademik Sederhana
 
-**Link Hosting:** https://taufikalhkim21.my.id
-
 **Akun Login:**
 
 ROLE : admin
@@ -9,7 +7,7 @@ username : admin22@gmail.com
 password : admin22
 
 ROLE : mahasiswa
-username : 5520124089
+username : 5520124075
 password : mahasiswa
 
 ---
